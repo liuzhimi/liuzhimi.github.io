@@ -5,6 +5,7 @@ author: liuzhimi
 ---
 
 #AsyncTask的使用及原理解析
+-----
 Android应用在主线程中执行耗时任务时会导致ANR（Application Not Responing），因此使用子线程异步执行耗时任务是必要的。Android SDK中给我们提供了AsyncTask这一封装好的组件。
 让我们来了解一下它。
 ##AsyncTask的使用
