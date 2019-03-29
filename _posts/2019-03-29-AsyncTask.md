@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to User AsyncTask
+title: How to use AsyncTask and How it works
 author: liuzhimi
 ---
 
-#AsyncTask的使用及原理解析
 -----
 Android应用在主线程中执行耗时任务时会导致ANR（Application Not Responing），因此使用子线程异步执行耗时任务是必要的。Android SDK中给我们提供了AsyncTask这一封装好的组件。
 让我们来了解一下它。
-##AsyncTask的使用
+
+### AsyncTask的使用
 以下代码是使用AsyncTask从网络异步加载一张图片的流程。
 ```
 public class NetCacheUtil {
@@ -124,7 +124,7 @@ public class NetCacheUtil {
 -onProgressUpdate()：更新进度（主线程）。
 -onPostExecute()：耗时任务执行完成之后执行此方法（主线程）。
 
-##源码分析
+### 源码分析
 
 先看一下成员变量：
 ```
