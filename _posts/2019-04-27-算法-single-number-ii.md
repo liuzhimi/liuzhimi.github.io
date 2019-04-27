@@ -7,12 +7,16 @@ author: liuzhimi
 LeetCode-single-number-ii
 ### 题目
 **题目描述**
+
 Given an array of integers, every element appears three times except for one. Find that single one.
+
 **Note**: 
+
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 ### 解题思路
 用二进制去模拟三进制，设a是高位，b是低位
+
 三个相同的数(b为1或0)相加,记这个数为c
 
 1.b=1, c+c+c => b=0

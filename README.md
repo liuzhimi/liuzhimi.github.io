@@ -29,6 +29,8 @@
 ### 算法
 1.[火柴拼出最大的数字](/_posts/2019-04-10-算法-火柴拼出最大的数字.md)
 
+2.[LeetCode-single-number-ii](/_posts/2019-04-27-算法-single-number-ii.md)
+
 ### 源码分析
 1.[AsyncTask](/_posts/2019-03-29-AsyncTask.md)
 
